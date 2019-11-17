@@ -81,32 +81,32 @@ namespace CSharpChapter5
             //}
 
 
-            //4. 사용자로부터 입력받은 횟수만큼 별을 반복 출력하는 프로그램을 작성하시오.
-            //단 입력받은 수가 0보다 작거나 같으면 오류메세지를 띄우고 프로그램을 종료합니다.
+            ////4. 사용자로부터 입력받은 횟수만큼 별을 반복 출력하는 프로그램을 작성하시오.
+            ////단 입력받은 수가 0보다 작거나 같으면 오류메세지를 띄우고 프로그램을 종료합니다.
 
-            Console.WriteLine("반복 횟수를 입력하세요:");
-            string a = Console.ReadLine();
-            int b = int.Parse(a);
+            //Console.WriteLine("반복 횟수를 입력하세요:");
+            //string a = Console.ReadLine();
+            //int b = int.Parse(a);
 
-            if (b <= 0 )
-            {
-                Console.WriteLine("0보다 작거나 같은 수는 입력할 수 없습니다.");
-            }
-            else
-            {
-                for (int i = 0; i < b; ++i)
-                {
+            //if (b <= 0 )
+            //{
+            //    Console.WriteLine("0보다 작거나 같은 수는 입력할 수 없습니다.");
+            //}
+            //else
+            //{
+            //    for (int i = 0; i < b; ++i)
+            //    {
 
-                    for (int j = 0; j < b; ++j)
-                    {
-                        if (i >= j)
-                        {
-                            Console.Write("*");
-                        }
-                    }
-                    Console.Write('\n');
-                }
-            }
+            //        for (int j = 0; j < b; ++j)
+            //        {
+            //            if (i >= j)
+            //            {
+            //                Console.Write("*");
+            //            }
+            //        }
+            //        Console.Write('\n');
+            //    }
+            //}
 
         }
     }
