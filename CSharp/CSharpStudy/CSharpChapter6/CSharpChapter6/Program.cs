@@ -44,20 +44,20 @@ namespace CSharpChapter6
             //// ref 키워드를 이용하여 원본을 바꾸겠다고 명시한다
             ///
 
-            //3.Plus 메소드가 double형 메소드를 지원하도록 오버로딩 하세요
-            int a = 3;
-            int b = 4;
-            int resultA = 0;
-            Plus(a, b, out resultA);
+            ////3.Plus 메소드가 double형 메소드를 지원하도록 오버로딩 하세요
+            //int a = 3;
+            //int b = 4;
+            //int resultA = 0;
+            //Plus(a, b, out resultA);
 
-            Console.WriteLine("{0} + {1} = {2}", a, b, resultA);
+            //Console.WriteLine("{0} + {1} = {2}", a, b, resultA);
 
-            double x = 2.4;
-            double y = 3.1;
-            double resultB = 0;
-            Plus(x, y, out resultB);
+            //double x = 2.4;
+            //double y = 3.1;
+            //double resultB = 0;
+            //Plus(x, y, out resultB);
 
-            Console.WriteLine("{0} + {1} = {2}", x, y, resultB);
+            //Console.WriteLine("{0} + {1} = {2}", x, y, resultB);
         }
     }
 }
